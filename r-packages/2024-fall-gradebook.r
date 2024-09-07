@@ -11,7 +11,7 @@ class_libs = c(
     "purrr", "1.0.2",
     "shinyFiles", "0.9.3",
     "shinyTime", "1.0.3",
-    "shinyWidgets", "0.8.1",
+    "shinyWidgets", "0.8.6",
     "shinydashboard", "0.7.2"
 )
 

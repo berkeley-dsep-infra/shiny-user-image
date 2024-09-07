@@ -82,8 +82,8 @@ RUN R --quiet -e "install.packages('IRkernel', quiet = TRUE)" && \
 
 COPY class-libs.R /tmp/class-libs.R
 
-COPY r-packages/2024-spring-gradebook.r /tmp/r-packages/
-RUN r /tmp/r-packages/2024-spring-gradebook.r
+COPY r-packages/2024-fall-gradebook.r /tmp/r-packages/
+RUN r /tmp/r-packages/2024-fall-gradebook.r
 
 COPY r-packages/2023-fall-stat-135.r /tmp/r-packages/
 RUN r /tmp/r-packages/2023-fall-stat-135.r
